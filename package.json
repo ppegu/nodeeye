@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "child_process": "^1.0.2",
+    "chokidar": "^3.5.3",
     "commander": "^9.4.0"
   },
   "devDependencies": {
@@ -18,5 +18,23 @@
   },
   "bin": {
     "nodeeye": "bin/nodeeye.js"
-  }
+  },
+  "author": "Pran Pegu",
+  "repository": {
+    "url": "https://github.com/ppegu/nodeeye.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ppegu/nodeeye",
+  "bugs": {
+    "url": "https://github.com/ppegu/nodeeye/issues",
+    "email": "pranpegu997@gmail.com"
+  },
+  "keywords": [
+    "node",
+    "nodeeye",
+    "nodemon",
+    "watcher",
+    "commander",
+    "chokidar"
+  ]
 }
