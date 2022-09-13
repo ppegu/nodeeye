@@ -1,0 +1,22 @@
+{
+  "name": "nodeeye",
+  "version": "1.0.0",
+  "description": "Node file reload without starting everything",
+  "main": "src/boot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "commander": "^9.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "bin": {
+    "nodeeye": "bin/nodeeye.js"
+  }
+}
